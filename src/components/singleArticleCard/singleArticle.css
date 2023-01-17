@@ -1,0 +1,17 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+.full-article-row{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+  width: 70rem;
+  height: auto;
+  border-radius: 10px;
+  margin: auto;
+  /* float: right;
+  margin: auto; */
+  margin-top: 8rem;
+}
