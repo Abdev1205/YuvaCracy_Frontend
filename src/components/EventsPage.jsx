@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Clock from "./Clock";
 
 const EventsPage = () => {
   // const [events, setEvents] = useState([]);
@@ -32,7 +33,12 @@ const EventsPage = () => {
           <button id="outline-button">Promoter Program</button>
         </div>
       </div>
+
       <div className="container-main-lower">
+        <div className="countdown-container">
+          <h1 id="event-tag">EVENT STARTING IN</h1>
+          <Clock duration={2 * 24 * 60 * 60 * 1000} />
+        </div>
         <div className="container-lower-content">
           <h1>Upcoming Events</h1>
           <div className="item">

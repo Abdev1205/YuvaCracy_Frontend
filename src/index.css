@@ -61,10 +61,20 @@ button{
   border: 2px solid #011A41;
 }
 
-.container-lower-content{
+.container-main-lower{
   max-width: 1200px;
   width: 90%;
   margin: auto;
+}
+
+#event-tag{
+  padding: .5rem;
+  margin-bottom: 0;
+  letter-spacing: .5rem;
+  text-align: center;
+  font-size: 3.6rem;
+  color: #fff;
+  background-color: #011A41;
 }
 
 .container-lower-content > h1{
@@ -109,6 +119,37 @@ hr{
   border: 1px solid lightgray;
 }
 
+/* countdown */
+
+.timer, .timer-content{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: .8rem;
+}
+
+span{
+  border: none;
+  padding: 1rem;
+}
+
+span > h1{
+  margin: 0;
+  font-size: 5rem;
+  text-align: center;
+}
+
+span > h2{
+  font-size: 3rem;
+  align-items: flex-start;
+}
+
+span > p{
+  font-size: 2rem;
+  text-align: center;
+}
+
 @media (max-width: 700px){
   .container-main-upper{
       display: grid;
@@ -126,5 +167,14 @@ hr{
   display: block;
   gap: 2rem;
 }
+
+/* span > h1{
+  margin: 0;
+  font-size: 2rem;
+}
+
+span > p{
+  font-size: 2rem;
+} */
   
 }
