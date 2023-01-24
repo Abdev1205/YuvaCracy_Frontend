@@ -34,14 +34,6 @@ function navBar() {
                     <NavLink to="/events" className="nav-item nav-link">Events</NavLink>
                     <NavLink to="/contact" className="nav-item nav-link">Contact</NavLink>
                 </div>
-                <div className="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown"><i className="fa fa-globe text-dark"></i> English</a>
-                        <div class="dropdown-menu border-light m-0">
-                            <a href="" class="dropdown-item">Hindi</a>
-                            <a href="" class="dropdown-item">German</a>
-                            <a href="" class="dropdown-item">French</a>
-                        </div>
-                    </div>
             </div>
         </nav>
         </div>

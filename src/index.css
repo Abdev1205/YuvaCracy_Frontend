@@ -49,17 +49,6 @@ code {
   font-size: 1rem;
 }
 
-button{
-  padding: 1rem;
-  border-radius: 10px;
-  border: none;
-  width: 100%;
-  margin: .5rem 0 .5rem 0;
-  font-weight: 700;
-  color: #fff;
-  cursor: pointer;
-}
-
 #colored-button{
   background-color: #011A41;
 }

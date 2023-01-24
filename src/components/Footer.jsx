@@ -44,8 +44,8 @@ export class footer extends PureComponent {
                 <div className="col-lg-3 col-md-6">
                     <h4 className="text-white mb-4">Newsletter</h4>
                     <p />Enter your email address to subscribe to our Newsletter
-                    <div className="position-relative w-100">
-                        <input className="form-control bg-white border-0 w-100 py-3 ps-4 pe-5" type="text"
+                    <div className="position-relative w-100 mt-3">
+                        <input className="form-control bg-white border-0 w-100 py-3 ps-4 pe-5" type="email"
                             placeholder="Your email" />
                         <button type="button"
                             className="btn btn-dark py-2 position-absolute top-0 end-0 mt-2 me-2"><a href="/#sub" className='text-white'>Subscribe</a></button>
@@ -58,7 +58,7 @@ export class footer extends PureComponent {
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#">YuvaCracy Foundation 2023</a>, All Right Reserved.
+                    &copy; Copyright 2023. &nbsp;<a class="border-bottom" href="#">YuvaCracy Foundation.</a> All Right Reserved.
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                     Designed By <a class="border-bottom" href="#">Tech Team</a>
