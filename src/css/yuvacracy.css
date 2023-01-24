@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Fredoka One&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container {
+    color: white;
+    background-image: linear-gradient(#4d5e7a, #011A41);
+    background-size: cover;
+}
+
+.navbar-links {
+    color: #e5e8ec; 
+}
+
+.main-logo-name {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Roboto";
+    color: black;
+}
+.main-logo {
+    height: 50px;
+    border-radius: 25px;
+
+}
+
+.contact-card-container {
+
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 2px 3px 8px #99a3b3;
+    margin-bottom: 60px;
+}
+.main-heading {
+    font-family: "Fredoka One";
+    color: #011A41;
+    font-size:40px;
+    margin-bottom: 20px;
+}
+.paragraph {
+    color: #4d5e7a;
+    font-family: "Open Sans";
+    margin-left: 5px;
+}
+.label {
+    color: #4d5e7a;
+    font-family: "Open Sans";
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.user-input {
+    border-radius: 30px;
+    border-width: 0px;
+    background-color: #e5e8ec;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.user-msg {
+    border-radius: 30px;
+    border-width: 0px;
+    background-color: #e5e8ec;
+    padding: 15px;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.send-msg {
+    background-color: #011A41;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    border-width: 0px;
+    box-shadow: 3px 5px 8px #99a3b3;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.social-logo {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.contact-detail {
+    color: white;
+    font-family: "Open Sans";
+    margin-left: 5px;
+}

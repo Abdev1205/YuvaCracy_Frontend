@@ -7,6 +7,7 @@ import Motivation from './pages/Motivation';
 import Teams from './pages/Teams';
 import Article from './pages/Article';
 import Events from './pages/Events';
+import Contact from './pages/Contact';
 import Error from './pages/Error';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Route exact path='/teams' element={<Teams />}></Route>
       <Route exact path='/article' element={<Article />}></Route>
       <Route exact path='/events' element={<Events />}></Route>
+      <Route exact path='/contact' element={<Contact />}></Route>
       <Route path='*' element ={<Error />} />
     </Routes>
 

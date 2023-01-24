@@ -9,9 +9,9 @@ export class footer extends PureComponent {
             <div className="row g-5">
                 <div className="col-lg-3 col-md-6">
                     <h4 className="text-white mb-4">Our Office</h4>
-                    <p className="mb-2"><i className="fa fa-map-marker-alt me-3"></i>Patna, Bihar, India</p>
-                    <p className="mb-2"><i className="fa fa-phone-alt me-3"></i>+91 89874 76709</p>
-                    <p className="mb-2"><i className="fa fa-envelope me-3"></i>yuvacracymail@gmail.com</p>
+                    <p className="mb-2"><i className="fa fa-map-marker-alt me-3"></i><a className="text-white" href="#">Mumbai, India</a></p>
+                    <p className="mb-2"><i className="fa fa-phone-alt me-3"></i><a className="text-white" href="tel:+91 89874 76709">+91 89874 76709</a></p>
+                    <p className="mb-2"><i className="fa fa-envelope me-3"></i><a className="text-white" href="mailto:yuvacracymail@gmail.com"> yuvacracymail@gmail.com</a></p>
                     <div className="d-flex pt-2">
                         <a className="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
                                 className="fab fa-twitter"></i></a>
@@ -48,7 +48,7 @@ export class footer extends PureComponent {
                         <input className="form-control bg-white border-0 w-100 py-3 ps-4 pe-5" type="text"
                             placeholder="Your email" />
                         <button type="button"
-                            className="btn btn-dark py-2 position-absolute top-0 end-0 mt-2 me-2">Subscribe</button>
+                            className="btn btn-dark py-2 position-absolute top-0 end-0 mt-2 me-2"><a href="/#sub" className='text-white'>Subscribe</a></button>
                     </div>
                 </div>
             </div>
@@ -61,7 +61,7 @@ export class footer extends PureComponent {
                     &copy; <a class="border-bottom" href="#">YuvaCracy Foundation 2023</a>, All Right Reserved.
                 </div>
                 <div class="col-md-6 text-center text-md-end">
-                    Designed By <a class="border-bottom" href="#">Safiyanu Yahaya Isah</a>
+                    Designed By <a class="border-bottom" href="#">Tech Team</a>
                 </div>
             </div>
         </div>

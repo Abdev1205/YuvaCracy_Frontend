@@ -17,11 +17,9 @@ class home extends PureComponent {
                                     <div className="container">
                                         <div className="row justify-content-start">
                                             <div className="col-lg-8">
-                                                <p
-                                                    className="d-inline-block border border-white rounded fw-semi-bold py-1 px-3 animated slideInDown text-dark">
-                                                    Welcome to YuvaCracy</p>
-                                                <h3 className="display-1 mb-4 animated slideInDown">Youth Empowerment Is Our Goal
-                                                </h3>
+                                                
+                                                <h6 className="display-1 mb-4 animated slideInDown">Youth Empowerment Is Our Goal
+                                                </h6>
                                                 <a href="" className="btn btn-dark py-3 px-5 animated slideInDown">Explore More</a>
                                             </div>
                                         </div>
@@ -34,10 +32,8 @@ class home extends PureComponent {
                                     <div className="container">
                                         <div className="row justify-content-start">
                                             <div className="col-lg-7">
-                                                <p
-                                                    className="d-inline-block border border-white rounded text-dark fw-semi-bold py-1 px-3 animated slideInDown">
-                                                    Welcome to YuvaCracy</p>
-                                                <h1 className="display-1 mb-4 animated slideInDown">Empowering Young People</h1>
+                                                
+                                                <h6 className="display-1 mb-4 animated slideInDown">Empowering Young People</h6>
                                                 <a href="" className="btn btn-dark py-3 px-5 animated slideInDown">Explore More</a>
                                             </div>
                                         </div>
@@ -60,7 +56,7 @@ class home extends PureComponent {
                     <div className="container">
                         <div className="row g-4 align-items-end mb-4">
                             <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                                <img className="img-fluid rounded" src="img/yuvacracy.jpg" />
+                                <img className="img-fluid rounded" src="img/yuvacracy.jpg" width={"auto"} height={"auto"}/>
                             </div>
                             <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                                 <p className="d-inline-block border rounded text-dark fw-semi-bold py-1 px-3">About Us</p>
@@ -183,7 +179,7 @@ class home extends PureComponent {
                     <div className="container">
                         <div className="row g-5 align-items-center">
                             <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                                <p className="d-inline-block border rounded text-dark fw-semi-bold py-1 px-3">Why Choosing Us!</p>
+                                {/* <p className="d-inline-block border rounded text-dark fw-semi-bold py-1 px-3">Why Choosing Us!</p> */}
                                 <h1 className="display-5 mb-4">Few Reasons Why People Choosing Us!</h1>
                                 <p className="mb-4">YuvaCracy is committed to providing an excellent.....
                                 </p>
@@ -195,7 +191,7 @@ class home extends PureComponent {
                                         <div className="row g-4">
                                             <div className="col-12 wow fadeIn" data-wow-delay="0.3s">
                                                 <div className="feature-box border rounded p-4">
-                                                    <i className="fa fa-check fa-3x text-dark mb-3"></i>
+                                                    <i className="fa fa-check fa-3x text-dark mb-3" style={{marginTop:-15}}></i>
                                                     <h4 className="mb-3">Fast Executions</h4>
                                                     <p className="mb-3">YuvaCracy Statement....<br />
                                                         also....</p>
@@ -205,7 +201,7 @@ class home extends PureComponent {
                                             </div>
                                             <div className="col-12 wow fadeIn" data-wow-delay="0.5s">
                                                 <div className="feature-box border rounded p-4">
-                                                    <i className="fa fa-check fa-3x text-dark mb-3"></i>
+                                                    <i className="fa fa-check fa-3x text-dark mb-3" style={{marginTop:-15}}></i>
                                                     <h4 className="mb-3">Guide & Support</h4>
                                                     <p className="mb-3">YuvaCracy Statement....<br />
                                                         also....</p>
@@ -217,7 +213,7 @@ class home extends PureComponent {
                                     </div>
                                     <div className="col-md-6 wow fadeIn" data-wow-delay="0.7s">
                                         <div className="feature-box border rounded p-4">
-                                            <i className="fa fa-check fa-3x text-dark mb-3"></i>
+                                            <i className="fa fa-check fa-3x text-dark mb-3" style={{marginTop:-15}}></i>
                                             <h4 className="mb-3">Easy Procedure</h4>
                                             <p className="mb-3">YuvaCracy Statement.... <br />
                                                 also....</p>
@@ -341,27 +337,27 @@ class home extends PureComponent {
                     </div>
                 </div>
 
-                <div className="container-fluid callback my-5 pt-5">
+                <div className="container-fluid callback my-5 pt-5" id ="sub">
                     <div className="container pt-5">
                         <div className="row justify-content-center">
                             <div className="col-lg-7">
                                 <div className="bg-white border rounded p-4 p-sm-5 wow fadeInUp" data-wow-delay="0.5s">
                                     <div className="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" >
-                                        <p className="d-inline-block border rounded text-dark fw-semi-bold py-1 px-3">Get In Touch
-                                        </p>
+                                        {/* <p className="d-inline-block border rounded text-dark fw-semi-bold py-1 px-3">Get In Touch
+                                        </p> */}
                                         <h1 className="display-5 mb-5">Request A Call-Back</h1>
                                     </div>
                                     <div className="row g-3">
                                         <div className="col-sm-6">
                                             <div className="form-floating">
                                                 <input type="text" className="form-control" id="name" placeholder="Your Name" />
-                                                <label htmlFor="name">Your Name</label>
+                                                <label htmlFor="name">Your Name <span className='text-danger'>*</span></label>
                                             </div>
                                         </div>
                                         <div className="col-sm-6">
                                             <div className="form-floating">
                                                 <input type="email" className="form-control" id="mail" placeholder="Your Email" />
-                                                <label htmlFor="mail">Your Email</label>
+                                                <label htmlFor="mail">Your Email<span className='text-danger'>*</span></label>
                                             </div>
                                         </div>
                                         <div className="col-sm-6">
@@ -373,14 +369,14 @@ class home extends PureComponent {
                                         <div className="col-sm-6">
                                             <div className="form-floating">
                                                 <input type="text" className="form-control" id="subject" placeholder="Subject" />
-                                                <label htmlFor="subject">Subject</label>
+                                                <label htmlFor="subject">Subject<span className='text-danger'>*</span></label>
                                             </div>
                                         </div>
                                         <div className="col-12">
                                             <div className="form-floating">
                                                 <textarea className="form-control" placeholder="Leave a message here" id="message"
                                                 ></textarea>
-                                                <label htmlFor="message">Message</label>
+                                                <label htmlFor="message">Message<span className='text-danger'>*</span></label>
                                             </div>
                                         </div>
                                         <div className="col-12 text-center">
@@ -396,7 +392,7 @@ class home extends PureComponent {
                     <div className="container">
                         <div className="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" >
                             <p className="d-inline-block border rounded text-dark fw-semi-bold py-1 px-3">Our Team</p>
-                            <h1 className="display-5 mb-5">Exclusive Team</h1>
+                            <h1 className="display-5 mb-5">Recent Events</h1>
                         </div>
                         <div className="row g-4">
                             <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
