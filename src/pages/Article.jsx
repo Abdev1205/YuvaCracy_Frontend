@@ -1,4 +1,4 @@
-// import axios from 'axios';
+import axios from 'axios';
 import React from 'react'
 import { useEffect } from 'react'
 import { useState } from 'react'
@@ -65,26 +65,25 @@ function Article() {
         setArticleFilter('Legislature');
     }
 
-    //   useEffect(() => {
-    //     const fetchArticle = async () => {
-    //     //   const res = await axios.get(`https://yuvacracybackendapi.onrender.com/api/all/article?category=${articleFilter}`)
-    //     const res=0
-    //       console.log(res);
-    //       setArticleData(res.data)
-    //       let value = res.data
-    //       if (value.length === 0) {
-    //         setNoResult(false)
-    //       }
-    //       else {
-    //         setNoResult(true)
-    //       }
+      useEffect(() => {
+        const fetchArticle = async () => {
+          const res = await axios.get(`https://yuvacracybackendapi.onrender.com/api/all/article?category=${articleFilter}`)
+          console.log(res);
+          setArticleData(res.data)
+          let value = res.data
+          if (value.length === 0) {
+            setNoResult(false)
+          }
+          else {
+            setNoResult(true)
+          }
 
 
 
-    //       // filter()
-    //     }
-    //     fetchArticle();
-    //   }, [articleFilter, noResult])
+          // filter()
+        }
+        fetchArticle();
+      }, [articleFilter, noResult])
 
     return (
         <div>

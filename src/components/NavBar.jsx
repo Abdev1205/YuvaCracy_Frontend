@@ -7,7 +7,7 @@ function navBar() {
              <div className="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
             <div className="top-bar row gx-0 align-items-center d-none d-lg-flex">
                 <div className="col-lg-6 px-5 text-start">
-                    <small><i className="fa fa-map-marker-alt text-dark me-2"></i>Mumbai,India</small>
+                    <small><i className="fa fa-map-marker-alt text-dark me-2"></i>Mumbai, Maharashtra, India</small>
                     <small className="ms-4"><i className="fa fa-clock text-dark me-2"></i>10:00 am - 6:00 pm</small>
                 </div>
                 <div className="col-lg-6 px-5 text-end">
@@ -34,14 +34,14 @@ function navBar() {
                     <NavLink to="/events" className="nav-item nav-link">Events</NavLink>
                     <NavLink to="/contact" className="nav-item nav-link">Contact</NavLink>
                 </div>
-                <div className="nav-item dropdown">
+                {/* <div className="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown"><i className="fa fa-globe text-dark"></i> English</a>
                         <div class="dropdown-menu border-light m-0">
                             <a href="" class="dropdown-item">Hindi</a>
                             <a href="" class="dropdown-item">German</a>
                             <a href="" class="dropdown-item">French</a>
                         </div>
-                    </div>
+                    </div> */}
             </div>
             
         </nav>

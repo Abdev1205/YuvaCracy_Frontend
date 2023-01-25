@@ -9,7 +9,7 @@ export class footer extends PureComponent {
             <div className="row g-5">
                 <div className="col-lg-3 col-md-6">
                     <h4 className="text-white mb-4">Our Office</h4>
-                    <p className="mb-2"><i className="fa fa-map-marker-alt me-3"></i><a className="text-white" href="#">Mumbai, India</a></p>
+                    <p className="mb-2"><i className="fa fa-map-marker-alt me-3"></i><a className="text-white" href="#">Mumbai, Maharashtra, India</a></p>
                     <p className="mb-2"><i className="fa fa-phone-alt me-3"></i><a className="text-white" href="tel:+91 89874 76709">+91 89874 76709</a></p>
                     <p className="mb-2"><i className="fa fa-envelope me-3"></i><a className="text-white" href="mailto:yuvacracymail@gmail.com"> yuvacracymail@gmail.com</a></p>
                     <div className="d-flex pt-2">

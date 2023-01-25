@@ -180,7 +180,7 @@ class home extends PureComponent {
                         <div className="row g-5 align-items-center">
                             <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                                 {/* <p className="d-inline-block border rounded text-dark fw-semi-bold py-1 px-3">Why Choosing Us!</p> */}
-                                <h1 className="display-5 mb-4">Few Reasons Why People Choosing Us!</h1>
+                                <h1 className="display-5 mb-4">Why YuvaCracy?</h1>
                                 <p className="mb-4">YuvaCracy is committed to providing an excellent.....
                                 </p>
                                 <a className="btn btn-dark py-3 px-5" href="">Explore More</a>
@@ -388,7 +388,7 @@ class home extends PureComponent {
                         </div>
                     </div>
                 </div>
-                <div className="container-xxl py-5">
+                {/* <div className="container-xxl py-5">
                     <div className="container">
                         <div className="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" >
                             <p className="d-inline-block border rounded text-dark fw-semi-bold py-1 px-3">Our Team</p>
@@ -442,7 +442,7 @@ class home extends PureComponent {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 <Footer />
 

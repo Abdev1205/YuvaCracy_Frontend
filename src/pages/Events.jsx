@@ -26,8 +26,8 @@ export class Events extends PureComponent {
         <div className="container-upper-content2">
           <h3>Date & Time</h3>
           <p>Thursay, Jan 12, 2023 at 20: 30 PM</p>
-          <button id="colored-button">Book Now (Free)</button>
-          <button id="outline-button">Promoter Program</button>
+          <button className = "button" id="colored-button">Book Now (Free)</button>
+          <button className = "button" id="outline-button">Promoter Program</button>
         </div>
       </div>
 
