@@ -43,6 +43,7 @@ function navBar() {
                         </div>
                     </div>
             </div>
+            
         </nav>
         </div>
         </div>
