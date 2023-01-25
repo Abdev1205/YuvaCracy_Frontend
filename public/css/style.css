@@ -545,3 +545,13 @@ h6,
 .copyright a:hover {
     color: var(--primary);
 }
+
+@media screen and (min-width: 700px) {
+
+    h6 {
+    
+    font-size: 6px;
+    
+    }
+    
+    }

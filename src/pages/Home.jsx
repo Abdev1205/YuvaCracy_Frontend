@@ -12,7 +12,7 @@ class home extends PureComponent {
                     <div id="header-carousel" className="carousel slide carousel-fade" data-bs-ride="carousel">
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                                <img className="w-100" src="img/carousel-1.jpg" alt="Image" />
+                                <img className="w-100" src="img/carousel-1.jpg" alt="Image" style={{objectFit:"contain",width: "100%"}}/>
                                 <div className="carousel-caption">
                                     <div className="container">
                                         <div className="row justify-content-start">
@@ -26,7 +26,7 @@ class home extends PureComponent {
                                     </div>
                                 </div>
                             </div>
-                            <div className="carousel-item">
+                            {/* <div className="carousel-item">
                                 <img className="w-100" src="img/carousel-2.jpg" alt="Image" />
                                 <div className="carousel-caption">
                                     <div className="container">
@@ -39,16 +39,16 @@ class home extends PureComponent {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
-                        <button className="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+                        {/* <button className="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
                             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span className="visually-hidden">Previous</span>
                         </button>
                         <button className="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
                             <span className="carousel-control-next-icon" aria-hidden="true"></span>
                             <span className="visually-hidden">Next</span>
-                        </button>
+                        </button> */}
                     </div>
                 </div>
 
@@ -56,7 +56,7 @@ class home extends PureComponent {
                     <div className="container">
                         <div className="row g-4 align-items-end mb-4">
                             <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                                <img className="img-fluid rounded" src="img/yuvacracy.jpg" width={"auto"} height={"auto"}/>
+                                <img className="img-fluid rounded" src="img/yuvacracy.jpg" width={"auto"} height={"auto"} style={{objectFit:"contain",width: "100%"}}/>
                             </div>
                             <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                                 <p className="d-inline-block border rounded text-dark fw-semi-bold py-1 px-3">About Us</p>
@@ -94,7 +94,7 @@ class home extends PureComponent {
                                 </div>
                             </div>
                         </div>
-                        <div className="border rounded p-4 wow fadeInUp" data-wow-delay="0.1s">
+                        {/* <div className="border rounded p-4 wow fadeInUp" data-wow-delay="0.1s">
                             <div className="row g-4">
                                 <div className="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
                                     <div className="h-100">
@@ -140,7 +140,7 @@ class home extends PureComponent {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 

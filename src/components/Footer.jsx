@@ -13,15 +13,15 @@ export class footer extends PureComponent {
                     <p className="mb-2"><i className="fa fa-phone-alt me-3"></i><a className="text-white" href="tel:+91 89874 76709">+91 89874 76709</a></p>
                     <p className="mb-2"><i className="fa fa-envelope me-3"></i><a className="text-white" href="mailto:yuvacracymail@gmail.com"> yuvacracymail@gmail.com</a></p>
                     <div className="d-flex pt-2">
-                        <a className="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
+                        <a className="btn btn-square btn-outline-light rounded-circle me-2" href="https://www.twitter.com/YuvaCracyOrg"><i
                                 className="fab fa-twitter"></i></a>
-                        <a className="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
+                        <a className="btn btn-square btn-outline-light rounded-circle me-2" href="https://www.facebook.com/YuvaCracyOrg"><i
                                 className="fab fa-facebook-f"></i></a>
-                        <a className="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
+                        <a className="btn btn-square btn-outline-light rounded-circle me-2" href="https://youtube.com/@YuvaCracyOrg"><i
                                 className="fab fa-youtube"></i></a>
-                        <a className="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
+                        <a className="btn btn-square btn-outline-light rounded-circle me-2" href="https://www.linkedin.com/company/yuvacracyorg"><i
                                 className="fab fa-linkedin-in"></i></a>
-                         <a className="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
+                         <a className="btn btn-square btn-outline-light rounded-circle me-2" href="https://www.instagram.com/YuvaCracyOrg"><i
                                 className="fab fa-instagram"></i></a>
                     </div>
                 </div>
@@ -61,7 +61,7 @@ export class footer extends PureComponent {
                     &copy; Copyright 2023. &nbsp;<a class="border-bottom" href="#">YuvaCracy Foundation.</a> All Right Reserved.
                 </div>
                 <div class="col-md-6 text-center text-md-end">
-                    Designed By <a class="border-bottom" href="#">Tech Team</a>
+                    Designed By <a class="border-bottom" href="#">YC Tech Team</a>
                 </div>
             </div>
         </div>
