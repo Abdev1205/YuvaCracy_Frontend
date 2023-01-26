@@ -22,7 +22,7 @@ export class About extends PureComponent {
                                         <div className="App1 mb-3" style={{ objectFit: "contain", margin:30}}>
                                             <div className="head"><h2>Our Vision</h2></div>
                                             <h5>Our vision is to drive the evolution of youth to meet today's challenges.</h5>
-                                            <p>The youth of a nation shapes and molds its presentand paves the way for its future.</p>
+                                            <p style={{margin:10}}>The youth of a nation shapes and molds its presentand paves the way for its future.</p>
 
 
                                         </div>
@@ -34,7 +34,7 @@ export class About extends PureComponent {
                                             <div className="head"><h2>Our Mission</h2></div>
                                             <h5>Our mission is to empower society though youth enagagements.</h5>
 
-                                            <p>We aim to do this by galvanizing  young leaders as well as bridging the gap between the youth and experts.
+                                            <p style={{margin:10}}>We aim to do this by galvanizing  young leaders as well as bridging the gap between the youth and experts.
 
                                             </p>
 
