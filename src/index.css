@@ -678,7 +678,7 @@ font-family: 'Secular One', sans-serif; */
 }
 
 /* Event CSS */
-.container-main-upper{
+/* .container-main-upper{
   display: flex;
   justify-content: space-evenly;
   padding: 1rem;
@@ -788,7 +788,6 @@ hr{
   border: 1px solid lightgray;
 }
 
-/* countdown */
 
 .timer, .timer-content{
   display: grid;
@@ -835,7 +834,7 @@ span > p{
   width: 100%;
   display: block;
   gap: 2rem;
-}
+} */
 
 /* span > h1{
   margin: 0;
@@ -843,6 +842,72 @@ span > p{
 }
 span > p{
   font-size: 2rem;
-} */
+} 
   
+}*/
+
+.event-container{
+  max-width: 1200px;
+  width: 90%;
+  margin: 5% auto 5% auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  align-items: center;
+}
+
+.event-container-content-1{
+  width: 100%;
+  height: 100%;
+}
+
+.event-container-content-1 > img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.event-container-content-2{
+  text-align: center;
+  color: #37477e;
+}
+
+.event-container-content-2 > h1{
+  font-size: 4rem;
+  margin: 0;
+}
+
+.event-container-content-2 > h3{
+  font-size: 3rem;
+  margin: 0;
+}
+
+/* .event-container-content-2 > p{
+  font-size: 1.2rem;
+}
+.form-container{
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+input{
+  padding: 1rem;
+  border: .5px solid black;
+  width: 50%;
+  border-radius: 10px;
+}
+button{
+  padding: 1rem;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  color: #fff;
+  background-color: #37477e;
+  border-radius: 10px;
+} */
+
+@media (max-width: 800px){
+  .event-container{
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
