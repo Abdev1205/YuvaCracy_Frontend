@@ -10,8 +10,6 @@ export class Events extends PureComponent {
                 <NavBar />
                 <br /><br /><br /><br /><br /><br />
 
-                <div className="container-xxl py-5">
-                    <div className="container">
                     <div className="container-main">
       <div className="container-main-upper">
         <div className="container-upper-content1">
@@ -32,9 +30,9 @@ export class Events extends PureComponent {
       </div>
 
       <div className="container-main-lower">
-        <div className="countdown-container">
+        <div className="countdown-container col-lg-6">
           <h1 id="event-tag">EVENT STARTING IN</h1>
-          <Clock duration={2 * 24 * 60 * 60 * 1000} />
+          <Clock duration={12 * 24 * 60 * 60 * 1000} />
         </div>
         <div className="container-lower-content">
           <h1>Upcoming Events</h1>
@@ -54,7 +52,7 @@ export class Events extends PureComponent {
                 exercitationem nihil aliquid temporibus. Dolor ex, consectetur
                 itaque cumque soluta est eos libero nulla totam ullam natus.
               </p>
-              <span>12th January 2023 at 20:30 pm</span>
+              <span>29th January 2023 at 20:30 pm</span>
             </div>
           </div>
           <hr />
@@ -74,14 +72,12 @@ export class Events extends PureComponent {
                 exercitationem nihil aliquid temporibus. Dolor ex, consectetur
                 itaque cumque soluta est eos libero nulla totam ullam natus.
               </p>
-              <span>12th January 2023 at 20:30 pm</span>
+              <span>8th January 2023 at 20:30 pm</span>
             </div>
           </div>
         </div>
       </div>
     </div>
-                    </div>
-                </div>
                 <Footer />
             </div>
         )
