@@ -18,7 +18,7 @@ class home extends PureComponent {
                                         <div className="row justify-content-start">
                                             <div className="col-lg-8">
                                                 
-                                                <h6 className="display-1 mb-4 animated slideInDown">Youth Empowerment Is Our Goal
+                                                <h6 className="display-1 mb-4 animated text-justify slideInDown">Youth Empowerment <br /> Is Our Goal
                                                 </h6>
                                                 <a href="" className="btn btn-dark py-3 px-5 animated slideInDown">Explore More</a>
                                             </div>
