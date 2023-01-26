@@ -29,20 +29,6 @@ font-family: 'Secular One', sans-serif; */
   background: rgba(39, 41, 109, 1);
   
 }
-.spacer{
-  height: 200vh;
-}
-
-.fa-xmark{
-  display: none;
-  cursor: pointer;
-  user-select: none;
-}
-.fa-bars{
-  display: none;
-  cursor: pointer;
-  user-select: none;
-}
 
 .error{
   width: 100%;
@@ -237,6 +223,7 @@ font-family: 'Secular One', sans-serif; */
   margin-top: 14rem;
   /* margin-right: 2rem; */
   /* width: 100%; */
+  font-family: 'Montserrat', sans-serif;
 }
 .latest-article-row{
   display: flex;

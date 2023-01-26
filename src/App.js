@@ -9,6 +9,9 @@ import Article from './pages/Article';
 import Events from './pages/Events';
 import Contact from './pages/Contact';
 import Error from './pages/Error';
+import TextEditor from './components/ArticleTextEditor';
+import PostArticle from './pages/PostArticle';
+import SingleArticle from './components/singleArticleCard/SingleArticle';
 
 function App() {
   return (
@@ -23,6 +26,9 @@ function App() {
       <Route exact path='/events' element={<Events />}></Route>
       <Route exact path='/contact' element={<Contact />}></Route>
       <Route path='*' element ={<Error />} />
+      <Route path='/editor' element ={<TextEditor/>} />
+      <Route path='/post/articles' element ={<PostArticle/>} />
+      <Route path='/articles/:articlesId' element={<SingleArticle/>}  />
     </Routes>
 
   );

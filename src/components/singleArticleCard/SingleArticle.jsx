@@ -5,7 +5,7 @@ import axios from 'axios';
 import LatestArticle from '../latestArticle/LatestArticle';
 import AllArticleCard from '../allArticleCard/AllArticleCard';
 import FullArticleSingleCard from './FullArticleSingleCard';
-import Navbar from '../Navbar';
+import Navbar from '../NavBar';
 import './singleCardMedia.css'
 function SingleArticle() {
 

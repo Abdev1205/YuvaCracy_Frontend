@@ -443,7 +443,47 @@ class home extends PureComponent {
                         </div>
                     </div>
                 </div> */}
+{/* CHAT BAR BLOCK */}
+    {/* <div className="chat-bar-collapsible">
+        <button id="chat-button" type="button" className="collapsible">Chat with YuvaCracy!
+            <i id="chat-icon" style={{color: "white"}} className="fa fa-fw fa-comments-o"></i>
+        </button>
 
+        <div className="content">
+            <div className="full-chat-block">
+                
+                <div className="outer-container">
+                    <div className="chat-container">
+                       
+                        <div id="chatbox">
+                            <h5 id="chat-timestamp"></h5>
+                            <p id="botStarterMessage" className="botText"><span>Loading...</span></p>
+                        </div>
+
+                     
+                        <div className="chat-bar-input-block">
+                            <div id="userInput">
+                                <input id="textInput" className="input-box" type="text" name="msg" placeholder="Tap 'Enter' to send a message" />
+                                <p></p>
+                            </div>
+
+                            <div className="chat-bar-icons">
+                                <i id="chat-icon" style={{color: "crimson"}} className="fa fa-fw fa-heart" onClick="heartButton()"></i>
+                                <i id="chat-icon" style={{color: "333"}} className="fa fa-fw fa-send" onClick="sendButton()"></i>
+                            </div>
+                        </div>
+
+                        <div id="chat-bar-bottom">
+                            <p></p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div> */}
                 <Footer />
 
             </div>

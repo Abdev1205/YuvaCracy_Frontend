@@ -65,87 +65,84 @@ function Article() {
         setArticleFilter('Legislature');
     }
 
-      useEffect(() => {
+    useEffect(() => {
         const fetchArticle = async () => {
-          const res = await axios.get(`https://yuvacracybackendapi.onrender.com/api/all/article?category=${articleFilter}`)
-          console.log(res);
-          setArticleData(res.data)
-          let value = res.data
-          if (value.length === 0) {
-            setNoResult(false)
-          }
-          else {
-            setNoResult(true)
-          }
+            const res = await axios.get(`https://yuvacracybackendapi.onrender.com/api/all/article?category=${articleFilter}`)
+            console.log(res);
+            setArticleData(res.data)
+            let value = res.data
+            if (value.length === 0) {
+                setNoResult(false)
+            }
+            else {
+                setNoResult(true)
+            }
 
 
 
-          // filter()
+            // filter()
         }
         fetchArticle();
-      }, [articleFilter, noResult])
+    }, [articleFilter, noResult])
 
     return (
         <div>
             <Navbar />
-            <div className="container-xxl py-5">
-                <div className="container">
-                    <div className="article">
+
+            <div className="article">
 
 
 
-                        <div className="article-content row">
-                            <br />
-                            <div className="article-content-navbar">
-                                <li onClick={articleActive} className={allArticle}>All</li>
-                                <li onClick={articleEducation} className={eduaction}>Education</li>
-                                <li onClick={articleEconomic} className={economic}>Economic</li>
-                                <li onClick={articleGovernance} className={governance}>Governance</li>
-                                <li onClick={articleLegislature} className={legislature}>Legislature</li>
+                <div className="article-content row">
+                    <br />
+                    <div className="article-content-navbar">
+                        <li onClick={articleActive} className={allArticle}>All</li>
+                        <li onClick={articleEducation} className={eduaction}>Education</li>
+                        <li onClick={articleEconomic} className={economic}>Economic</li>
+                        <li onClick={articleGovernance} className={governance}>Governance</li>
+                        <li onClick={articleLegislature} className={legislature}>Legislature</li>
 
-                            </div>
-                        </div>
-
-                        <div className="article-row">
-                            <div className="latest-article-row">
-                                <img src="https://i.postimg.cc/CKKKPtQp/bookmark-ribbon.png" alt="" srcset="" />
-                                <h1>Latest Articles</h1>
-                                <hr />
-
-                                {articleData.map((articleData) => (
-                                    <LatestArticle articleData={articleData} />
-                                ))}
-                                {/* <LatestArticle articleData = {articleData}  /> */}
-                            </div>
-
-                            <div className="popular-article-row">
-                                <h1>Popular Articles</h1>
-                                <hr />
-                                {noResult ? articleData.map((articleData) => (
-                                    <AllArticleCard articleData={articleData} />
-                                )) : <>
-                                    <div className="no-result">
-                                        <img src="https://i.postimg.cc/Z5HfhVnr/ezgif-com-gif-maker-13.gif" alt="" />
-                                        <div className="no-result-search">
-                                            <img src="https://i.postimg.cc/DydL64LS/ezgif-com-gif-maker-14.gif" alt="" />
-                                            <h1>No result Found</h1>
-                                        </div>
-                                    </div>
-                                </>}
-                            </div>
-                        </div>
-
-
-
-
-                    </div>
-                    <div className='upload-article' >
-
-                        <h1>Want to Post Article </h1>  <NavLink to='/post/articles'>
-                            <button>Post Article</button>
-                        </NavLink>
                     </div>
                 </div>
+
+                <div className="article-row">
+                    <div className="latest-article-row">
+                        <img src="https://i.postimg.cc/CKKKPtQp/bookmark-ribbon.png" alt="" srcset="" />
+                        <h1>Latest Articles</h1>
+                        <hr />
+
+                        {articleData.map((articleData) => (
+                            <LatestArticle articleData={articleData} />
+                        ))}
+                        {/* <LatestArticle articleData = {articleData}  /> */}
+                    </div>
+
+                    <div className="popular-article-row">
+                        <h1>Popular Articles</h1>
+                        <hr />
+                        {noResult ? articleData.map((articleData) => (
+                            <AllArticleCard articleData={articleData} />
+                        )) : <>
+                            <div className="no-result">
+                                <img src="https://i.postimg.cc/Z5HfhVnr/ezgif-com-gif-maker-13.gif" alt="" />
+                                <div className="no-result-search">
+                                    <img src="https://i.postimg.cc/DydL64LS/ezgif-com-gif-maker-14.gif" alt="" />
+                                    <h1>No result Found</h1>
+                                </div>
+                            </div>
+                        </>}
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <div className='upload-article' >
+
+                <h1>Want to Post Article </h1>  <NavLink to='/post/articles'>
+                    <button>Post Article</button>
+                </NavLink>
             </div>
             <Footer />
         </div>
